@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 alias doco="docker-compose"
 alias l="exa -lg"
 alias la="exa -lga"
+alias ll="exa -lga"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
